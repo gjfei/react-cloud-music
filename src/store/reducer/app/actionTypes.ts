@@ -1,0 +1,1 @@
+export const CHANGE_APP_NAME = 'app/CHANGE_APP_NAME';
