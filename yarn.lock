@@ -1091,18 +1091,6 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
-"@better-scroll/core@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@better-scroll/core/-/core-2.0.3.tgz#467cad0bebac01ba8766e985ea5e4e70cfa313b8"
-  integrity sha512-SCRs2dgOoBM2vOvDyRsxpXQAI3eDeibnUQYsmLDIp3XU3MFbBviBPhuoAtIH/87ZwtUIot7AfUu3RU5rOn/fsg==
-  dependencies:
-    "@better-scroll/shared-utils" "^2.0.3"
-
-"@better-scroll/shared-utils@^2.0.3":
-  version "2.0.3"
-  resolved "https://registry.yarnpkg.com/@better-scroll/shared-utils/-/shared-utils-2.0.3.tgz#9e0a061f0519ee6d86f66b2f36b2b863a664f131"
-  integrity sha512-FvIQbMStd6mfEyF0ptI1fCIJn/a8OakcCaYhE6yH2JMVln2t3Vv72VosorQPKPgmiS1krDOh8PP6FyCKNtKxoQ==
-
 "@cnakazawa/watch@^1.0.3":
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/@cnakazawa/watch/-/watch-1.0.4.tgz#f864ae85004d0fcab6f50be9141c4da368d1656a"
@@ -1620,7 +1608,7 @@
     "@types/minimatch" "*"
     "@types/node" "*"
 
-"@types/hoist-non-react-statics@^3.3.0":
+"@types/hoist-non-react-statics@*", "@types/hoist-non-react-statics@^3.3.0":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz#1124aafe5118cb591977aeb1ceaaed1070eb039f"
   integrity sha512-iMIqiko6ooLrTh1joXodJK5X9xeEALT1kM5G3ZLhD3hszxBdIEd5C75U834D9mLcINgD4OyZf5uQXjkuYydWvA==
@@ -1709,6 +1697,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-native@*":
+  version "0.63.25"
+  resolved "https://registry.npm.taobao.org/@types/react-native/download/@types/react-native-0.63.25.tgz#a08bbe17a75cce993f52655a8fe75f30bf77e965"
+  integrity sha1-oIu+F6dczpk/UmVaj+dfML936WU=
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-redux@^7.1.9":
   version "7.1.9"
   resolved "https://registry.yarnpkg.com/@types/react-redux/-/react-redux-7.1.9.tgz#280c13565c9f13ceb727ec21e767abe0e9b4aec3"
@@ -1731,6 +1726,16 @@
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/@types/stack-utils/-/stack-utils-1.0.1.tgz#0a851d3bd96498fa25c33ab7278ed3bd65f06c3e"
   integrity sha512-l42BggppR6zLmpfU6fq9HEa2oGPEI8yrSPL3GITjfRInppYFahObbIQOQK3UGxEnyQpltZLaPe75046NOZQikw==
+
+"@types/styled-components@^5.1.4":
+  version "5.1.4"
+  resolved "https://registry.npm.taobao.org/@types/styled-components/download/@types/styled-components-5.1.4.tgz#11f167dbde268635c66adc89b5a5db2e69d75384"
+  integrity sha1-EfFn294mhjXGatyJtaXbLmnXU4Q=
+  dependencies:
+    "@types/hoist-non-react-statics" "*"
+    "@types/react" "*"
+    "@types/react-native" "*"
+    csstype "^3.0.2"
 
 "@types/testing-library__dom@*":
   version "7.5.0"
@@ -3398,6 +3403,11 @@ cosmiconfig@^6.0.0:
     parse-json "^5.0.0"
     path-type "^4.0.0"
     yaml "^1.7.2"
+
+craco-alias@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.npm.taobao.org/craco-alias/download/craco-alias-2.1.1.tgz#c9c2e9d333c674419591f3002a26cb073ee2094b"
+  integrity sha1-ycLp0zPGdEGVkfMAKibLBz7iCUs=
 
 create-ecdh@^4.0.0:
   version "4.0.3"
