@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'normalize.css';
+import GlobalStyle from '@styles/globalStyle';
 import { Provider } from "react-redux";
 import { ThemeProvider } from 'styled-components';
 
@@ -16,6 +17,7 @@ ReactDOM.render(
   <React.StrictMode>
     <Provider store={store}>
       <ThemeProvider theme={theme}>
+        <GlobalStyle />
         <App />
       </ThemeProvider>
     </Provider>
