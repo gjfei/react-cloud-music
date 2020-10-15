@@ -1,11 +1,12 @@
 import React from 'react';
+import SidebarItem from './SidebarItem';
 import SidebarWrap from './style';
 
 function Sidebar(){
   
   return(
     <SidebarWrap>
-      侧边栏
+      <SidebarItem />
     </SidebarWrap>
   );
 }
